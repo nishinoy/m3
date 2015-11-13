@@ -1,0 +1,1 @@
+jQuery(function(t){function n(){o=e.height(),r=e.width(),i.attr("style",""),640>r&&i.css({left:0,marginLeft:0}),360>o&&i.css({top:0,marginTop:0})}var e=(document,t(window)),i=t("#wrapper"),o=e.height(),r=e.width(),u=null;e.on("load",n),e.on("resize",function(t){u&&clearTimeout(u),u=setTimeout(function(){n()},200)})});
