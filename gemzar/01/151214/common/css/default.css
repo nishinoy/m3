@@ -1,0 +1,100 @@
+@charset "utf-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0;
+  font-size: 100%;
+  letter-spacing: 0.5px;
+  background: transparent;
+}
+
+body{
+font-family:"Noto Sans Japanese","メイリオ","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+font-size:180%;
+background-color:#fff;
+text-align:center;
+-webkit-text-size-adjust:100%
+}
+
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000000; 
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+font-weight: 100;
+font-size: 2em;
+margin: 0px 0px 25px 0px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0px;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0px;
+  padding: 0px;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}

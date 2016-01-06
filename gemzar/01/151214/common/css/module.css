@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/*----------------------------------------------------------------
+	共通
+----------------------------------------------------------------*/
+html { overflow-y: scroll; }
+
+body {
+  font-size: 100%;
+  color: #666666;
+  font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+  word-break: normal;
+  word-wrap: break-word;
+  background: #ffffff;
+}
+
+.ttl1{
+float: right;
+position: absolute;
+top: 10px;
+right: 20px;
+}
+
+/* page要素
+----------------------------------------------------------- */
+div#page {
+  width: 100%;
+  height: 100%;
+  margin: 50px auto 0px auto;
+  padding: 0px;
+  text-align: center;
+  min-width: 750px;
+}
+
+/* slide要素
+----------------------------------------------------------- */
+div.slide1{
+text-align: center;
+display: inline-block;
+width: 100%;
+height: 550px;
+}
+
+div.slides{
+width: 100%;
+height: 550px;
+margin-top: 0px;
+}
+
+.swrap{
+display: inline-block;
+text-align: left;
+}
+
+.simg{
+margin-top: 40px;
+text-align: center;
+}
+
+.s_con{
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.fontPink{
+color: #FF0098;
+}
+
+.capt{
+font-size: 12px;
+text-align: right;
+position: absolute;
+top: 525px;
+right: 100px;
+}
+
+.capt2{
+font-size: 0.8em;
+text-align: left
+position: absolute;
+top: 510px;
+left: 100px;
+}
+
+
+/* footer要素
+----------------------------------------------------------- */
+#footer{
+ position: fixed;
+ text-align: left;
+ width: 100%;
+ height: auto;
+ color: #fff;
+ font-size: 0.6em;
+ padding: 20px 0px 20px 20px;
+ background-color: #1F504C;
+}
+
+div#footer a{
+color: #fff;
+text-decoration: none;
+}
+
+.m3logo{
+float: right;
+font-size: 1.5em !important;
+padding: 20px 40px 0px 0px;
+}
+
+.m3logo a{
+vertical-align: top;
+}
+
+/* IE8以下に対応
+----------------------------------------------------------- */
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary{
+  display:block;
+}
+
+/* フォントサイズ
+----------------------------------------------------------- */
+
+.fs8{
+font-size: 0.8em;
+}
+
+
+.fs12{
+font-size: 1.2em;
+line-height: 2.2em;
+}
+
+.fs15{
+font-size: 1.5em;
+line-height: 1.8em;
+}
+
+.fs25{
+font-size: 2.5em;
+}
+
+
+/* layout
+----------------------------------------------------------- */
+.mb10{
+padding-bottom: 50px;
+}
